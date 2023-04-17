@@ -1,0 +1,27 @@
+{
+  message: 'Error: Question validation failed: question_id: Path `question_id` is required. | Stack: ValidationError: Question validation failed: question_id: Path `question_id` is required.\n' +
+    '    at model.Document.invalidate (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:3051:32)\n' +
+    '    at D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:2839:17\n' +
+    '    at D:\\spm-backend\\node_modules\\mongoose\\lib\\schematype.js:1340:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:78:11)',
+  level: 'error',
+  timestamp: '2022-09-13T05:52:29.809Z'
+}
+{
+  message: 'Error connecting to MongoDB: Error: querySrv ECONNREFUSED _mongodb._tcp.edupox.wwoepyc.mongodb.net',
+  level: 'error',
+  timestamp: '2022-09-13T08:13:10.973Z'
+}
+{
+  message: 'Error connecting to database: Error: querySrv ECONNREFUSED _mongodb._tcp.edupox.wwoepyc.mongodb.net',
+  level: 'error',
+  timestamp: '2022-09-13T08:13:10.978Z'
+}
+{
+  message: 'Error: post validation failed: img: Path `img` is required. | Stack: Error: post validation failed: img: Path `img` is required.\n' +
+    '    at D:\\spm-backend\\src\\services\\/Post.service.js:11:13\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-09-13T08:34:39.988Z'
+}
