@@ -1,0 +1,10 @@
+{
+  message: 'Error connecting to MongoDB: Error: querySrv ECONNREFUSED _mongodb._tcp.edupox.wwoepyc.mongodb.net',
+  level: 'error',
+  timestamp: '2022-09-08T05:09:43.055Z'
+}
+{
+  message: 'Error connecting to database: Error: querySrv ECONNREFUSED _mongodb._tcp.edupox.wwoepyc.mongodb.net',
+  level: 'error',
+  timestamp: '2022-09-08T05:09:43.058Z'
+}

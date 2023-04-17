@@ -1,0 +1,192 @@
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-21T01:42:37.984Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-21T02:22:38.357Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-21T03:51:37.265Z'
+}
+{
+  message: 'Error: Post validation failed: user_email: Path `user_email` is required. | Stack: ValidationError: Post validation failed: user_email: Path `user_email` is required.\n' +
+    '    at model.Document.invalidate (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:3051:32)\n' +
+    '    at D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:2839:17\n' +
+    '    at D:\\spm-backend\\node_modules\\mongoose\\lib\\schematype.js:1340:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:78:11)',
+  level: 'error',
+  timestamp: '2022-10-21T04:15:08.834Z'
+}
+{
+  message: 'Error: Post validation failed: user_email: Path `user_email` is required. | Stack: ValidationError: Post validation failed: user_email: Path `user_email` is required.\n' +
+    '    at model.Document.invalidate (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:3051:32)\n' +
+    '    at D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:2839:17\n' +
+    '    at D:\\spm-backend\\node_modules\\mongoose\\lib\\schematype.js:1340:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:78:11)',
+  level: 'error',
+  timestamp: '2022-10-21T04:18:35.865Z'
+}
+{
+  message: 'Error: Post validation failed: user_email: Path `user_email` is required. | Stack: ValidationError: Post validation failed: user_email: Path `user_email` is required.\n' +
+    '    at model.Document.invalidate (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:3051:32)\n' +
+    '    at D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:2839:17\n' +
+    '    at D:\\spm-backend\\node_modules\\mongoose\\lib\\schematype.js:1340:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:78:11)',
+  level: 'error',
+  timestamp: '2022-10-21T04:20:16.860Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-21T04:24:01.972Z'
+}
+{
+  message: 'Error: Post validation failed: user_email: Path `user_email` is required. | Stack: ValidationError: Post validation failed: user_email: Path `user_email` is required.\n' +
+    '    at model.Document.invalidate (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:3051:32)\n' +
+    '    at D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:2839:17\n' +
+    '    at D:\\spm-backend\\node_modules\\mongoose\\lib\\schematype.js:1340:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:78:11)',
+  level: 'error',
+  timestamp: '2022-10-21T04:24:26.130Z'
+}
+{
+  message: 'Error: Post validation failed: user_email: Path `user_email` is required. | Stack: ValidationError: Post validation failed: user_email: Path `user_email` is required.\n' +
+    '    at model.Document.invalidate (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:3051:32)\n' +
+    '    at D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:2839:17\n' +
+    '    at D:\\spm-backend\\node_modules\\mongoose\\lib\\schematype.js:1340:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:78:11)',
+  level: 'error',
+  timestamp: '2022-10-21T04:27:03.011Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-21T04:34:35.930Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-21T05:37:15.236Z'
+}
+{
+  message: 'Error: PostService is not defined | Stack: ReferenceError: PostService is not defined\n' +
+    '    at _callee8$ (D:\\spm-backend\\src\\controllers\\/post.js:106:41)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\controllers\\post.js:18:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\controllers\\post.js:18:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\controllers\\post.js:18:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\controllers\\post.js:26:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\controllers\\post.js:28:194)\n' +
+    '    at D:\\spm-backend\\src\\controllers\\post.js:28:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at D:\\spm-backend\\src\\controllers\\post.js:28:97\n' +
+    '    at D:\\spm-backend\\src\\controllers\\/post.js:106:28',
+  level: 'error',
+  timestamp: '2022-10-21T06:13:50.616Z'
+}
+{
+  message: 'Error: PostService is not defined | Stack: ReferenceError: PostService is not defined\n' +
+    '    at _callee8$ (D:\\spm-backend\\src\\controllers\\/post.js:106:41)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\controllers\\post.js:18:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\controllers\\post.js:18:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\controllers\\post.js:18:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\controllers\\post.js:26:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\controllers\\post.js:28:194)\n' +
+    '    at D:\\spm-backend\\src\\controllers\\post.js:28:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at D:\\spm-backend\\src\\controllers\\post.js:28:97\n' +
+    '    at D:\\spm-backend\\src\\controllers\\/post.js:106:28',
+  level: 'error',
+  timestamp: '2022-10-21T06:13:51.267Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-21T08:38:03.132Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-21T09:06:18.143Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-21T11:35:39.255Z'
+}
+{
+  message: 'Error: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img" | Stack: ValidationError: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img"\n' +
+    '    at model.Document.invalidate (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:3051:32)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1406:12)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1089:16)\n' +
+    '    at model.Document (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:166:12)\n' +
+    '    at model.Model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:119:12)\n' +
+    '    at new model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:4926:15)\n' +
+    '    at _callee$ (D:\\spm-backend\\src\\repository\\/post.js:5:22)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\repository\\post.js:16:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\repository\\post.js:16:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\repository\\post.js:16:3255)',
+  level: 'error',
+  timestamp: '2022-10-21T12:41:08.984Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-21T12:48:29.383Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-21T13:56:53.439Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-21T16:59:15.950Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-21T17:46:59.133Z'
+}
+{
+  message: 'Error: Validation failed | Stack: Error: Validation failed\n' +
+    '    at D:\\spm-backend\\node_modules\\celebrate\\lib\\celebrate.js:95:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-10-21T17:55:24.795Z'
+}
+{
+  message: 'Error: Validation failed | Stack: Error: Validation failed\n' +
+    '    at D:\\spm-backend\\node_modules\\celebrate\\lib\\celebrate.js:95:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-10-21T17:56:04.344Z'
+}
+{
+  message: 'Error: Validation failed | Stack: Error: Validation failed\n' +
+    '    at D:\\spm-backend\\node_modules\\celebrate\\lib\\celebrate.js:95:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-10-21T17:56:35.024Z'
+}
+{
+  message: 'Error: Validation failed | Stack: Error: Validation failed\n' +
+    '    at D:\\spm-backend\\node_modules\\celebrate\\lib\\celebrate.js:95:19\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-10-21T18:14:09.058Z'
+}
+{
+  message: 'Error: Validation failed | Stack: Error: Validation failed\n' +
+    '    at D:\\spm-backend\\node_modules\\celebrate\\lib\\celebrate.js:95:19\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-10-21T18:14:38.137Z'
+}

@@ -1,0 +1,5 @@
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-11-03T15:31:06.873Z'
+}
