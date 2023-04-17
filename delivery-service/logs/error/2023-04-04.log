@@ -1,0 +1,114 @@
+{
+  message: 'Error connecting to MongoDB: Error: querySrv ENOTFOUND _mongodb._tcp.edupox.wwoepyc.mongodb.net',
+  level: 'error',
+  timestamp: '2023-04-04T18:56:29.868Z'
+}
+{
+  message: 'Error connecting to database: Error: querySrv ENOTFOUND _mongodb._tcp.edupox.wwoepyc.mongodb.net',
+  level: 'error',
+  timestamp: '2023-04-04T18:56:29.873Z'
+}
+{
+  message: 'Error connecting to MongoDB: Error: querySrv ENOTFOUND _mongodb._tcp.edupox.wwoepyc.mongodb.net',
+  level: 'error',
+  timestamp: '2023-04-04T18:59:31.621Z'
+}
+{
+  message: 'Error connecting to database: Error: querySrv ENOTFOUND _mongodb._tcp.edupox.wwoepyc.mongodb.net',
+  level: 'error',
+  timestamp: '2023-04-04T18:59:31.626Z'
+}
+{
+  message: 'Error connecting to MongoDB: Error: querySrv ENOTFOUND _mongodb._tcp.edupox.wwoepyc.mongodb.net',
+  level: 'error',
+  timestamp: '2023-04-04T19:02:45.418Z'
+}
+{
+  message: 'Error connecting to database: Error: querySrv ENOTFOUND _mongodb._tcp.edupox.wwoepyc.mongodb.net',
+  level: 'error',
+  timestamp: '2023-04-04T19:02:45.430Z'
+}
+{
+  message: 'Error: Validation failed | Stack: Error: Validation failed\n' +
+    '    at D:\\spm-backend\\node_modules\\celebrate\\lib\\celebrate.js:95:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2023-04-04T19:14:11.165Z'
+}
+{
+  message: 'Error: Validation failed | Stack: Error: Validation failed\n' +
+    '    at D:\\spm-backend\\node_modules\\celebrate\\lib\\celebrate.js:95:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2023-04-04T19:14:20.892Z'
+}
+{
+  message: 'Error: Validation failed | Stack: Error: Validation failed\n' +
+    '    at D:\\spm-backend\\node_modules\\celebrate\\lib\\celebrate.js:95:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2023-04-04T19:14:26.791Z'
+}
+{
+  message: 'Error: Validation failed | Stack: Error: Validation failed\n' +
+    '    at D:\\spm-backend\\node_modules\\celebrate\\lib\\celebrate.js:95:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2023-04-04T19:14:59.078Z'
+}
+{
+  message: 'Error: Validation failed | Stack: Error: Validation failed\n' +
+    '    at D:\\spm-backend\\node_modules\\celebrate\\lib\\celebrate.js:95:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2023-04-04T19:15:02.245Z'
+}
+{
+  message: 'Error: Validation failed | Stack: Error: Validation failed\n' +
+    '    at D:\\spm-backend\\node_modules\\celebrate\\lib\\celebrate.js:95:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2023-04-04T19:15:06.582Z'
+}
+{
+  message: 'Error: Validation failed | Stack: Error: Validation failed\n' +
+    '    at D:\\spm-backend\\node_modules\\celebrate\\lib\\celebrate.js:95:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2023-04-04T19:15:10.374Z'
+}
+{
+  message: 'Error: Validation failed | Stack: Error: Validation failed\n' +
+    '    at D:\\spm-backend\\node_modules\\celebrate\\lib\\celebrate.js:95:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2023-04-04T19:20:14.291Z'
+}
+{
+  message: 'Error: Validation failed | Stack: Error: Validation failed\n' +
+    '    at D:\\spm-backend\\node_modules\\celebrate\\lib\\celebrate.js:95:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2023-04-04T19:20:16.851Z'
+}
+{
+  message: 'Error: Validation failed | Stack: Error: Validation failed\n' +
+    '    at D:\\spm-backend\\node_modules\\celebrate\\lib\\celebrate.js:95:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2023-04-04T19:23:35.857Z'
+}
+{
+  message: 'Error: Validation failed | Stack: Error: Validation failed\n' +
+    '    at D:\\spm-backend\\node_modules\\celebrate\\lib\\celebrate.js:95:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2023-04-04T19:23:41.042Z'
+}
+{
+  message: 'Error: Validation failed | Stack: Error: Validation failed\n' +
+    '    at D:\\spm-backend\\node_modules\\celebrate\\lib\\celebrate.js:95:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2023-04-04T19:24:35.666Z'
+}
