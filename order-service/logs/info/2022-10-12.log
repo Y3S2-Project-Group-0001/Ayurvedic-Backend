@@ -1,0 +1,35 @@
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-12T11:04:58.884Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-12T11:54:25.027Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-12T12:04:44.709Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-12T12:06:38.050Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-12T12:08:46.817Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-12T12:14:07.883Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-12T15:23:28.963Z'
+}

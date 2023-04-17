@@ -1,0 +1,10 @@
+{
+  message: 'Error connecting to MongoDB: Error: querySrv ETIMEOUT _mongodb._tcp.edupox.wwoepyc.mongodb.net',
+  level: 'error',
+  timestamp: '2022-08-31T06:19:22.875Z'
+}
+{
+  message: 'Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.edupox.wwoepyc.mongodb.net',
+  level: 'error',
+  timestamp: '2022-08-31T06:19:22.880Z'
+}
