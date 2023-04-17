@@ -1,0 +1,28 @@
+{
+  message: 'Error: Cast to ObjectId failed for value "popular" (type string) at path "_id" for model "post" | Stack: Error: Cast to ObjectId failed for value "popular" (type string) at path "_id" for model "post"\n' +
+    '    at D:\\spm-backend\\src\\services\\/Post.service.js:37:13\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-08-29T03:45:44.371Z'
+}
+{
+  message: 'Error: Cast to ObjectId failed for value "popular" (type string) at path "_id" for model "post" | Stack: Error: Cast to ObjectId failed for value "popular" (type string) at path "_id" for model "post"\n' +
+    '    at D:\\spm-backend\\src\\services\\/Post.service.js:37:13\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-08-29T03:45:44.708Z'
+}
+{
+  message: 'Error: Cast to ObjectId failed for value "popular" (type string) at path "_id" for model "post" | Stack: Error: Cast to ObjectId failed for value "popular" (type string) at path "_id" for model "post"\n' +
+    '    at D:\\spm-backend\\src\\services\\/Post.service.js:37:13\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-08-29T03:45:45.128Z'
+}
+{
+  message: 'Error: Cast to ObjectId failed for value "popular" (type string) at path "_id" for model "post" | Stack: Error: Cast to ObjectId failed for value "popular" (type string) at path "_id" for model "post"\n' +
+    '    at D:\\spm-backend\\src\\services\\/Post.service.js:37:13\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-08-29T03:45:45.135Z'
+}
