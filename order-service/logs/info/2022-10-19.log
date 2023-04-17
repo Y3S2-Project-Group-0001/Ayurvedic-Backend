@@ -1,0 +1,225 @@
+{
+  message: 'Error connecting to MongoDB: Error: querySrv ECONNREFUSED _mongodb._tcp.edupox.wwoepyc.mongodb.net',
+  level: 'error',
+  timestamp: '2022-10-19T08:42:28.161Z'
+}
+{
+  message: 'Error connecting to database: Error: querySrv ECONNREFUSED _mongodb._tcp.edupox.wwoepyc.mongodb.net',
+  level: 'error',
+  timestamp: '2022-10-19T08:42:28.169Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-19T12:23:15.867Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-19T16:07:50.918Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-19T20:42:31.532Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-10-19T20:47:36.977Z'
+}
+{
+  message: 'Error: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img" | Stack: ValidationError: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img"\n' +
+    '    at model.Document.invalidate (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:3051:32)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1406:12)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1089:16)\n' +
+    '    at model.Document (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:166:12)\n' +
+    '    at model.Model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:119:12)\n' +
+    '    at new model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:4926:15)\n' +
+    '    at _callee$ (D:\\spm-backend\\src\\repository\\/post.js:5:22)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\repository\\post.js:16:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\repository\\post.js:16:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\repository\\post.js:16:3255)',
+  level: 'error',
+  timestamp: '2022-10-19T20:55:57.535Z'
+}
+{
+  message: 'Error: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img" | Stack: ValidationError: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img"\n' +
+    '    at model.Document.invalidate (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:3051:32)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1406:12)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1089:16)\n' +
+    '    at model.Document (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:166:12)\n' +
+    '    at model.Model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:119:12)\n' +
+    '    at new model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:4926:15)\n' +
+    '    at _callee$ (D:\\spm-backend\\src\\repository\\/post.js:5:22)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\repository\\post.js:16:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\repository\\post.js:16:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\repository\\post.js:16:3255)',
+  level: 'error',
+  timestamp: '2022-10-19T20:56:55.375Z'
+}
+{
+  message: 'Error: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img" | Stack: ValidationError: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img"\n' +
+    '    at model.Document.invalidate (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:3051:32)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1406:12)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1089:16)\n' +
+    '    at model.Document (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:166:12)\n' +
+    '    at model.Model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:119:12)\n' +
+    '    at new model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:4926:15)\n' +
+    '    at _callee$ (D:\\spm-backend\\src\\repository\\/post.js:5:22)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\repository\\post.js:16:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\repository\\post.js:16:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\repository\\post.js:16:3255)',
+  level: 'error',
+  timestamp: '2022-10-19T20:58:45.847Z'
+}
+{
+  message: 'Error: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img" | Stack: ValidationError: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img"\n' +
+    '    at model.Document.invalidate (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:3051:32)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1406:12)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1089:16)\n' +
+    '    at model.Document (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:166:12)\n' +
+    '    at model.Model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:119:12)\n' +
+    '    at new model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:4926:15)\n' +
+    '    at _callee$ (D:\\spm-backend\\src\\repository\\/post.js:5:22)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\repository\\post.js:16:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\repository\\post.js:16:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\repository\\post.js:16:3255)',
+  level: 'error',
+  timestamp: '2022-10-19T21:01:29.820Z'
+}
+{
+  message: 'Error: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img" | Stack: ValidationError: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img"\n' +
+    '    at model.Document.invalidate (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:3051:32)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1406:12)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1089:16)\n' +
+    '    at model.Document (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:166:12)\n' +
+    '    at model.Model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:119:12)\n' +
+    '    at new model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:4926:15)\n' +
+    '    at _callee$ (D:\\spm-backend\\src\\repository\\/post.js:5:22)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\repository\\post.js:16:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\repository\\post.js:16:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\repository\\post.js:16:3255)',
+  level: 'error',
+  timestamp: '2022-10-19T21:16:05.019Z'
+}
+{
+  message: 'Error: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img" | Stack: ValidationError: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img"\n' +
+    '    at model.Document.invalidate (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:3051:32)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1406:12)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1089:16)\n' +
+    '    at model.Document (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:166:12)\n' +
+    '    at model.Model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:119:12)\n' +
+    '    at new model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:4926:15)\n' +
+    '    at _callee$ (D:\\spm-backend\\src\\repository\\/post.js:5:22)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\repository\\post.js:16:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\repository\\post.js:16:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\repository\\post.js:16:3255)',
+  level: 'error',
+  timestamp: '2022-10-19T21:19:03.065Z'
+}
+{
+  message: 'Error: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img" | Stack: ValidationError: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img"\n' +
+    '    at model.Document.invalidate (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:3051:32)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1406:12)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1089:16)\n' +
+    '    at model.Document (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:166:12)\n' +
+    '    at model.Model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:119:12)\n' +
+    '    at new model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:4926:15)\n' +
+    '    at _callee$ (D:\\spm-backend\\src\\repository\\/post.js:5:22)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\repository\\post.js:16:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\repository\\post.js:16:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\repository\\post.js:16:3255)',
+  level: 'error',
+  timestamp: '2022-10-19T21:21:40.389Z'
+}
+{
+  message: 'Error: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img" | Stack: ValidationError: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img"\n' +
+    '    at model.Document.invalidate (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:3051:32)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1406:12)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1089:16)\n' +
+    '    at model.Document (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:166:12)\n' +
+    '    at model.Model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:119:12)\n' +
+    '    at new model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:4926:15)\n' +
+    '    at _callee$ (D:\\spm-backend\\src\\repository\\/post.js:5:22)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\repository\\post.js:16:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\repository\\post.js:16:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\repository\\post.js:16:3255)',
+  level: 'error',
+  timestamp: '2022-10-19T21:25:34.318Z'
+}
+{
+  message: 'Error: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img" | Stack: ValidationError: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img"\n' +
+    '    at model.Document.invalidate (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:3051:32)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1406:12)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1089:16)\n' +
+    '    at model.Document (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:166:12)\n' +
+    '    at model.Model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:119:12)\n' +
+    '    at new model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:4926:15)\n' +
+    '    at _callee$ (D:\\spm-backend\\src\\repository\\/post.js:5:22)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\repository\\post.js:16:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\repository\\post.js:16:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\repository\\post.js:16:3255)',
+  level: 'error',
+  timestamp: '2022-10-19T21:36:13.685Z'
+}
+{
+  message: 'Error: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img" | Stack: ValidationError: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img"\n' +
+    '    at model.Document.invalidate (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:3051:32)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1406:12)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1089:16)\n' +
+    '    at model.Document (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:166:12)\n' +
+    '    at model.Model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:119:12)\n' +
+    '    at new model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:4926:15)\n' +
+    '    at _callee$ (D:\\spm-backend\\src\\repository\\/post.js:5:22)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\repository\\post.js:16:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\repository\\post.js:16:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\repository\\post.js:16:3255)',
+  level: 'error',
+  timestamp: '2022-10-19T21:49:01.366Z'
+}
+{
+  message: 'Error: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img" | Stack: ValidationError: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img"\n' +
+    '    at model.Document.invalidate (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:3051:32)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1406:12)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1089:16)\n' +
+    '    at model.Document (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:166:12)\n' +
+    '    at model.Model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:119:12)\n' +
+    '    at new model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:4926:15)\n' +
+    '    at _callee$ (D:\\spm-backend\\src\\repository\\/post.js:5:22)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\repository\\post.js:16:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\repository\\post.js:16:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\repository\\post.js:16:3255)',
+  level: 'error',
+  timestamp: '2022-10-19T21:56:33.591Z'
+}
+{
+  message: 'Error: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img" | Stack: ValidationError: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img"\n' +
+    '    at model.Document.invalidate (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:3051:32)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1406:12)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1089:16)\n' +
+    '    at model.Document (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:166:12)\n' +
+    '    at model.Model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:119:12)\n' +
+    '    at new model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:4926:15)\n' +
+    '    at _callee$ (D:\\spm-backend\\src\\repository\\/post.js:5:22)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\repository\\post.js:16:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\repository\\post.js:16:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\repository\\post.js:16:3255)',
+  level: 'error',
+  timestamp: '2022-10-19T22:02:41.267Z'
+}
+{
+  message: 'Error: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img" | Stack: ValidationError: Post validation failed: img: Cast to string failed for value "{}" (type Object) at path "img"\n' +
+    '    at model.Document.invalidate (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:3051:32)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1406:12)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1089:16)\n' +
+    '    at model.Document (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:166:12)\n' +
+    '    at model.Model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:119:12)\n' +
+    '    at new model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:4926:15)\n' +
+    '    at _callee$ (D:\\spm-backend\\src\\repository\\/post.js:5:22)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\repository\\post.js:16:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\repository\\post.js:16:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\repository\\post.js:16:3255)',
+  level: 'error',
+  timestamp: '2022-10-19T22:10:13.520Z'
+}
