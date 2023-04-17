@@ -1,0 +1,1209 @@
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T03:11:50.142Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T06:05:42.514Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T06:06:11.597Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T06:06:46.348Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T06:13:11.401Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T06:16:59.421Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T06:21:41.364Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T06:27:56.351Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T06:31:17.694Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T06:34:36.257Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T06:38:20.426Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T06:40:02.484Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T06:40:12.220Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T06:40:35.263Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T06:47:22.925Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T06:47:50.483Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T06:47:53.929Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:48:37.182Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:48:37.192Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:48:37.221Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:48:37.227Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T06:50:27.768Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:51:52.804Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:51:52.810Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:51:56.800Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:52:52.026Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:53:01.959Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:53:01.968Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:53:42.043Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:53:47.494Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:53:47.503Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T06:55:22.710Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:55:24.254Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:55:24.277Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:56:06.056Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:56:09.047Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:56:09.056Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:57:04.035Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:57:07.975Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:57:07.986Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:58:06.049Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:58:09.509Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:58:09.518Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee7$ (D:\\spm-backend\\src\\services\\/Post.service.js:75:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.searchPosts (D:\\spm-backend\\src\\services\\/Post.service.js:74:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:58:29.490Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee7$ (D:\\spm-backend\\src\\services\\/Post.service.js:75:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.searchPosts (D:\\spm-backend\\src\\services\\/Post.service.js:74:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:58:31.541Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee7$ (D:\\spm-backend\\src\\services\\/Post.service.js:75:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.searchPosts (D:\\spm-backend\\src\\services\\/Post.service.js:74:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:58:32.566Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:58:48.036Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:59:36.361Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T06:59:36.370Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T07:04:00.842Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T07:04:00.848Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T07:04:03.016Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T07:04:04.424Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T07:33:24.310Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T07:33:24.318Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee7$ (D:\\spm-backend\\src\\services\\/Post.service.js:75:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.searchPosts (D:\\spm-backend\\src\\services\\/Post.service.js:74:25)',
+  level: 'error',
+  timestamp: '2022-08-30T07:33:38.553Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee7$ (D:\\spm-backend\\src\\services\\/Post.service.js:75:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.searchPosts (D:\\spm-backend\\src\\services\\/Post.service.js:74:25)',
+  level: 'error',
+  timestamp: '2022-08-30T07:33:40.190Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee7$ (D:\\spm-backend\\src\\services\\/Post.service.js:75:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.searchPosts (D:\\spm-backend\\src\\services\\/Post.service.js:74:25)',
+  level: 'error',
+  timestamp: '2022-08-30T07:33:41.038Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T07:34:15.566Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T07:34:15.595Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T07:36:06.047Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T07:36:23.816Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T07:36:29.366Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T08:08:35.158Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T08:08:48.342Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T08:08:54.655Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T08:11:21.916Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T08:11:21.933Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T08:11:28.143Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T08:11:28.152Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T08:12:24.973Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T08:13:53.106Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T08:13:53.124Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T08:13:56.547Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T08:15:45.411Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T08:15:45.421Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T08:16:12.251Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T08:19:25.947Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T08:20:39.754Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T08:20:39.769Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T08:23:01.290Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T08:23:33.524Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T08:23:54.814Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T08:23:54.825Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T08:25:16.230Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T08:25:52.501Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T08:26:36.456Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T08:27:05.446Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee3$ (D:\\spm-backend\\src\\services\\/Post.service.js:17:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.getAllPosts (D:\\spm-backend\\src\\services\\/Post.service.js:16:25)',
+  level: 'error',
+  timestamp: '2022-08-30T08:27:05.470Z'
+}
+{
+  message: 'Error: _Post.default.find is not a function | Stack: TypeError: _Post.default.find is not a function\n' +
+    '    at _callee7$ (D:\\spm-backend\\src\\services\\/Post.service.js:75:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.searchPosts (D:\\spm-backend\\src\\services\\/Post.service.js:74:25)',
+  level: 'error',
+  timestamp: '2022-08-30T08:27:12.120Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T08:29:50.311Z'
+}
+{
+  message: 'Error: _Post.default.create is not a function | Stack: TypeError: _Post.default.create is not a function\n' +
+    '    at _callee2$ (D:\\spm-backend\\src\\services\\/Post.service.js:5:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.insertPost (D:\\spm-backend\\src\\services\\/Post.service.js:4:24)',
+  level: 'error',
+  timestamp: '2022-08-30T08:30:02.142Z'
+}
+{
+  message: 'Error: _Post.default.create is not a function | Stack: TypeError: _Post.default.create is not a function\n' +
+    '    at _callee2$ (D:\\spm-backend\\src\\services\\/Post.service.js:5:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.insertPost (D:\\spm-backend\\src\\services\\/Post.service.js:4:24)',
+  level: 'error',
+  timestamp: '2022-08-30T08:30:44.645Z'
+}
+{
+  message: 'Error: _Post.default.create is not a function | Stack: TypeError: _Post.default.create is not a function\n' +
+    '    at _callee2$ (D:\\spm-backend\\src\\services\\/Post.service.js:5:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.insertPost (D:\\spm-backend\\src\\services\\/Post.service.js:4:24)',
+  level: 'error',
+  timestamp: '2022-08-30T08:32:03.436Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T08:34:41.204Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T08:35:11.632Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T08:35:40.159Z'
+}
+{
+  message: 'Error: _Post.default.create is not a function | Stack: TypeError: _Post.default.create is not a function\n' +
+    '    at _callee2$ (D:\\spm-backend\\src\\services\\/Post.service.js:5:26)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\services\\Post.service.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\services\\Post.service.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\services\\Post.service.js:14:3255)\n' +
+    '    at asyncGeneratorStep (D:\\spm-backend\\src\\services\\Post.service.js:16:103)\n' +
+    '    at _next (D:\\spm-backend\\src\\services\\Post.service.js:18:194)\n' +
+    '    at D:\\spm-backend\\src\\services\\Post.service.js:18:364\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (D:\\spm-backend\\src\\services\\Post.service.js:18:97)\n' +
+    '    at Object.insertPost (D:\\spm-backend\\src\\services\\/Post.service.js:4:24)',
+  level: 'error',
+  timestamp: '2022-08-30T08:36:23.682Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T08:54:19.443Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T08:54:52.768Z'
+}
+{
+  message: 'Error: Cast to ObjectId failed for value "add" (type string) at path "_id" for model "post" | Stack: Error: Cast to ObjectId failed for value "add" (type string) at path "_id" for model "post"\n' +
+    '    at D:\\spm-backend\\src\\services\\/Post.service.js:37:13\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-08-30T09:11:42.959Z'
+}
+{
+  message: 'Error: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "post" | Stack: Error: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "post"\n' +
+    '    at D:\\spm-backend\\src\\services\\/Post.service.js:54:13\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-08-30T09:14:24.748Z'
+}
+{
+  message: 'Error: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "post" | Stack: Error: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "post"\n' +
+    '    at D:\\spm-backend\\src\\services\\/Post.service.js:54:13\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-08-30T09:14:56.400Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T09:18:36.658Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T10:35:59.538Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T10:36:21.479Z'
+}
+{
+  message: 'Error: Cast to ObjectId failed for value "get" (type string) at path "_id" for model "post" | Stack: Error: Cast to ObjectId failed for value "get" (type string) at path "_id" for model "post"\n' +
+    '    at D:\\spm-backend\\src\\services\\/Post.service.js:37:13\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-08-30T10:38:55.369Z'
+}
+{
+  message: 'Error: Cast to ObjectId failed for value "get" (type string) at path "_id" for model "post" | Stack: Error: Cast to ObjectId failed for value "get" (type string) at path "_id" for model "post"\n' +
+    '    at D:\\spm-backend\\src\\services\\/Post.service.js:37:13\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-08-30T10:38:55.397Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T10:43:35.867Z'
+}
+{
+  message: 'Error: Cast to ObjectId failed for value "add" (type string) at path "_id" for model "post" | Stack: Error: Cast to ObjectId failed for value "add" (type string) at path "_id" for model "post"\n' +
+    '    at D:\\spm-backend\\src\\services\\/Post.service.js:37:13\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-08-30T10:44:39.010Z'
+}
+{
+  message: 'Error: Cast to ObjectId failed for value "add" (type string) at path "_id" for model "post" | Stack: Error: Cast to ObjectId failed for value "add" (type string) at path "_id" for model "post"\n' +
+    '    at D:\\spm-backend\\src\\services\\/Post.service.js:37:13\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-08-30T10:45:05.220Z'
+}
+{
+  message: 'Error: Cast to ObjectId failed for value "add" (type string) at path "_id" for model "post" | Stack: Error: Cast to ObjectId failed for value "add" (type string) at path "_id" for model "post"\n' +
+    '    at D:\\spm-backend\\src\\services\\/Post.service.js:37:13\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-08-30T10:45:06.493Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T10:45:30.389Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-30T11:37:22.193Z'
+}
