@@ -1,0 +1,30 @@
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-09-09T05:23:28.086Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-09-09T06:26:42.346Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-09-09T07:54:42.930Z'
+}
+{
+  message: 'Error: Question validation failed: question_id: Cast to Number failed for value "q22" (type string) at path "question_id" | Stack: ValidationError: Question validation failed: question_id: Cast to Number failed for value "q22" (type string) at path "question_id"\n' +
+    '    at model.Document.invalidate (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:3051:32)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1406:12)\n' +
+    '    at model.$set (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:1089:16)\n' +
+    '    at model.Document (D:\\spm-backend\\node_modules\\mongoose\\lib\\document.js:166:12)\n' +
+    '    at model.Model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:119:12)\n' +
+    '    at new model (D:\\spm-backend\\node_modules\\mongoose\\lib\\model.js:4926:15)\n' +
+    '    at _callee$ (D:\\spm-backend\\src\\repository\\/question.js:4:28)\n' +
+    '    at tryCatch (D:\\spm-backend\\src\\repository\\question.js:14:2404)\n' +
+    '    at Generator._invoke (D:\\spm-backend\\src\\repository\\question.js:14:1964)\n' +
+    '    at Generator.next (D:\\spm-backend\\src\\repository\\question.js:14:3255)',
+  level: 'error',
+  timestamp: '2022-09-09T08:04:16.301Z'
+}

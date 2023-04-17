@@ -1,0 +1,88 @@
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-29T02:03:50.132Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-29T02:35:42.458Z'
+}
+{
+  message: 'Error: Cast to ObjectId failed for value "popular" (type string) at path "_id" for model "post" | Stack: Error: Cast to ObjectId failed for value "popular" (type string) at path "_id" for model "post"\n' +
+    '    at D:\\spm-backend\\src\\services\\/Post.service.js:37:13\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-08-29T03:45:44.371Z'
+}
+{
+  message: 'Error: Cast to ObjectId failed for value "popular" (type string) at path "_id" for model "post" | Stack: Error: Cast to ObjectId failed for value "popular" (type string) at path "_id" for model "post"\n' +
+    '    at D:\\spm-backend\\src\\services\\/Post.service.js:37:13\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-08-29T03:45:44.708Z'
+}
+{
+  message: 'Error: Cast to ObjectId failed for value "popular" (type string) at path "_id" for model "post" | Stack: Error: Cast to ObjectId failed for value "popular" (type string) at path "_id" for model "post"\n' +
+    '    at D:\\spm-backend\\src\\services\\/Post.service.js:37:13\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-08-29T03:45:45.128Z'
+}
+{
+  message: 'Error: Cast to ObjectId failed for value "popular" (type string) at path "_id" for model "post" | Stack: Error: Cast to ObjectId failed for value "popular" (type string) at path "_id" for model "post"\n' +
+    '    at D:\\spm-backend\\src\\services\\/Post.service.js:37:13\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-08-29T03:45:45.135Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-29T04:04:25.099Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-29T04:21:39.458Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-29T08:18:14.622Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-29T08:26:51.019Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-29T08:58:57.107Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-29T10:13:46.371Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-29T10:27:40.189Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-29T10:45:18.491Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-29T10:50:02.389Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2022-08-29T12:51:47.318Z'
+}
