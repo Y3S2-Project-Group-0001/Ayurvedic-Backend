@@ -1,0 +1,20 @@
+{
+  message: 'Error connecting to MongoDB: Error: querySrv ECONNREFUSED _mongodb._tcp.ayruvedicstore.huldt7g.mongodb.net',
+  level: 'error',
+  timestamp: '2023-04-18T16:06:05.193Z'
+}
+{
+  message: 'Error connecting to database: Error: querySrv ECONNREFUSED _mongodb._tcp.ayruvedicstore.huldt7g.mongodb.net',
+  level: 'error',
+  timestamp: '2023-04-18T16:06:05.200Z'
+}
+{
+  message: 'Error connecting to MongoDB: Error: querySrv ECONNREFUSED _mongodb._tcp.ayruvedicstore.huldt7g.mongodb.net',
+  level: 'error',
+  timestamp: '2023-04-18T16:06:15.512Z'
+}
+{
+  message: 'Error connecting to database: Error: querySrv ECONNREFUSED _mongodb._tcp.ayruvedicstore.huldt7g.mongodb.net',
+  level: 'error',
+  timestamp: '2023-04-18T16:06:15.519Z'
+}
