@@ -303,3 +303,18 @@
   level: 'info',
   timestamp: '2023-04-19T07:57:55.776Z'
 }
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-19T07:59:20.521Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-19T08:01:03.863Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-19T08:01:33.055Z'
+}

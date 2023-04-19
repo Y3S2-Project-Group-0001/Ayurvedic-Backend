@@ -2,13 +2,6 @@ import express from 'express'
 const DeliveryDetails = require('../models/deliveryDetails')
 const router = express.Router()
 
-
-router.get('/my', async(req, res) =>{
-    const post = "TEST WORK"
-    res.status(200).json(post)
-});
-
-
 // Add new Address or add new to already existing array
 router.post("/addAddress", async (req, res) => {
 let data = req.body;
@@ -35,23 +28,13 @@ catch (e) {
 }
 })
 
-//   Postman checker --
-// {   "CID" : "897236ys8d9d41117",
-//     "Addresses" : {
-//          "Title": "home address",
-//         "HouseNo": "1op234",
-//         "Address": "123 Maind St",
-//         "city": "Anywwtown",
-//         "street": "Main"
-//     }
-// }
-
 
 // Get all addresses 
 router.get("/getAddresses", async (req, res) => {
     const addresses = await DeliveryDetails.find({CID : req.body.CID}).sort({createdAt: -1})
     res.status(200).json(addresses)
 })
+
 
 // Update single address
 router.put("/updateAddress", async (req, res) => {
@@ -73,17 +56,6 @@ router.put("/updateAddress", async (req, res) => {
     }
   });
 
-//postman
-//   {   "CID" : "897236ys8d9d41117Semora",
-//     "Addresses" : {
-//         "_id" : "643f9c22d9c56bec1695da43",
-//          "Title": "home ME address",
-//         "HouseNo": "1op234",
-//         "Address": "123 Maind St",
-//         "city": "Anywwtown",
-//         "street": "Main"
-//     }
-// }
 
 // Delete one Address
 router.delete("/deleteOneAddress", async (req, res) => {
@@ -107,10 +79,35 @@ router.delete("/deleteAddresses", async (req, res) => {
     return res.status(200).json(address)
 })
 
-// postman. use for both delete apis
+
+export default router
+
+
+//   Postman checker -- http://localhost:3004/api/addAddress
+// {   "CID" : "897236ys8d9d41117",
+//     "Addresses" : {
+//          "Title": "home address",
+//         "HouseNo": "1op234",
+//         "Address": "123 Maind St",
+//         "city": "Anywwtown",
+//         "street": "Main"
+//     }
+// }
+
+//postman -- http://localhost:3004/api/updateAddress
+//   {   "CID" : "897236ys8d9d41117Semora",
+//     "Addresses" : {
+//         "_id" : "643f9c22d9c56bec1695da43",
+//          "Title": "home ME address",
+//         "HouseNo": "1op234",
+//         "Address": "123 Maind St",
+//         "city": "Anywwtown",
+//         "street": "Main"
+//     }
+// }
+
+// postman. use for both delete apis -- http://localhost:3004/api/deleteAddresses
 // {
 //     "CID" : "643f9abe3ac372fe5f4b08b4",
 //     "addressID" : "643f9ac23ac372fe5f4b08cb"
 // }
-
-export default router
