@@ -198,3 +198,53 @@
   level: 'info',
   timestamp: '2023-04-19T07:19:24.445Z'
 }
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-19T07:21:52.841Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-19T07:26:14.513Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-19T07:32:34.667Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-19T07:33:40.487Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-19T07:36:57.417Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-19T07:39:39.027Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-19T07:41:56.123Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-19T07:42:51.131Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-19T07:44:45.540Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-19T07:45:18.061Z'
+}
