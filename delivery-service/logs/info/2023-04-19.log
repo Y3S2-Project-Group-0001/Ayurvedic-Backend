@@ -248,3 +248,58 @@
   level: 'info',
   timestamp: '2023-04-19T07:45:18.061Z'
 }
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-19T07:48:49.238Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-19T07:50:28.750Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-19T07:54:29.414Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-19T07:54:43.512Z'
+}
+{
+  message: `Error: Unexpected token '/', "#" is not valid JSON | Stack: SyntaxError: Unexpected token '/', "#" is not valid JSON\n` +
+    '    at JSON.parse (<anonymous>)\n' +
+    '    at createStrictSyntaxError (C:\\Users\\Senal\\Documents\\GitHub\\Ayurvedic-Backend\\delivery-service\\node_modules\\express\\node_modules\\body-parser\\lib\\types\\json.js:160:10)\n' +
+    '    at parse (C:\\Users\\Senal\\Documents\\GitHub\\Ayurvedic-Backend\\delivery-service\\node_modules\\express\\node_modules\\body-parser\\lib\\types\\json.js:83:15)\n' +
+    '    at C:\\Users\\Senal\\Documents\\GitHub\\Ayurvedic-Backend\\delivery-service\\node_modules\\express\\node_modules\\body-parser\\lib\\read.js:128:18\n' +
+    '    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)\n' +
+    '    at invokeCallback (C:\\Users\\Senal\\Documents\\GitHub\\Ayurvedic-Backend\\delivery-service\\node_modules\\express\\node_modules\\raw-body\\index.js:231:16)\n' +
+    '    at done (C:\\Users\\Senal\\Documents\\GitHub\\Ayurvedic-Backend\\delivery-service\\node_modules\\express\\node_modules\\raw-body\\index.js:220:7)\n' +
+    '    at IncomingMessage.onEnd (C:\\Users\\Senal\\Documents\\GitHub\\Ayurvedic-Backend\\delivery-service\\node_modules\\express\\node_modules\\raw-body\\index.js:280:7)\n' +
+    '    at IncomingMessage.emit (node:events:512:28)\n' +
+    '    at IncomingMessage.emit (node:domain:489:12)',
+  level: 'error',
+  timestamp: '2023-04-19T07:55:38.824Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-19T07:56:02.745Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-19T07:56:35.263Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-19T07:57:47.466Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-19T07:57:55.776Z'
+}
