@@ -7,6 +7,10 @@ const deliveryDetailsSchema = new Schema({
         required: false
     },
     Addresses: [{
+        Title:{
+            type: String,
+            required: false
+        },
         HouseNo:{
             type: String,
             required: false
