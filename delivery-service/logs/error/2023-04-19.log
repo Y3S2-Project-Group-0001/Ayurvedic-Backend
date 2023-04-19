@@ -1,0 +1,15 @@
+{
+  message: 'Error: Expected double-quoted property name in JSON at position 29 | Stack: SyntaxError: Expected double-quoted property name in JSON at position 29\n' +
+    '    at JSON.parse (<anonymous>)\n' +
+    '    at parse (C:\\Users\\Senal\\Documents\\GitHub\\Ayurvedic-Backend\\delivery-service\\node_modules\\express\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n' +
+    '    at C:\\Users\\Senal\\Documents\\GitHub\\Ayurvedic-Backend\\delivery-service\\node_modules\\express\\node_modules\\body-parser\\lib\\read.js:128:18\n' +
+    '    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)\n' +
+    '    at invokeCallback (C:\\Users\\Senal\\Documents\\GitHub\\Ayurvedic-Backend\\delivery-service\\node_modules\\express\\node_modules\\raw-body\\index.js:231:16)\n' +
+    '    at done (C:\\Users\\Senal\\Documents\\GitHub\\Ayurvedic-Backend\\delivery-service\\node_modules\\express\\node_modules\\raw-body\\index.js:220:7)\n' +
+    '    at IncomingMessage.onEnd (C:\\Users\\Senal\\Documents\\GitHub\\Ayurvedic-Backend\\delivery-service\\node_modules\\express\\node_modules\\raw-body\\index.js:280:7)\n' +
+    '    at IncomingMessage.emit (node:events:512:28)\n' +
+    '    at IncomingMessage.emit (node:domain:489:12)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1359:12)',
+  level: 'error',
+  timestamp: '2023-04-19T06:41:25.013Z'
+}
