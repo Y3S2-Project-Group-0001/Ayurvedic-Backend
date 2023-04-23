@@ -1,0 +1,10 @@
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-19T13:41:53.932Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-19T15:42:44.711Z'
+}
