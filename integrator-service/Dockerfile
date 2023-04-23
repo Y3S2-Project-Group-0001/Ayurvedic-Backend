@@ -2,7 +2,7 @@
 FROM node:14-alpine
 
 # Set the working directory to /app
-WORKDIR /app/order-service
+WORKDIR /app/integrator-service
 
 # Copy the package.json and package-lock.json files to the container
 COPY package.json yarn.lock ./
@@ -14,7 +14,7 @@ RUN yarn install
 COPY . .
 
 # Expose port 8080 to the outside world
-EXPOSE 8004
+EXPOSE 8000
 
 # Start the application
-CMD ["yarn", "dev"]
+CMD ["yarn", "start"]
