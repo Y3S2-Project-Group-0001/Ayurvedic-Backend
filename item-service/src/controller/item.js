@@ -1,5 +1,6 @@
-
-let Item = require('../models/item')
+import express, { Request, response, Response } from 'express'
+let Item1 = require('../models/item')
+//import {Item} from  '../models/item';
 
 export function addItem(req,res){
     const itemName = req.body.itemName
@@ -9,7 +10,7 @@ export function addItem(req,res){
     const stockAmount = Number(req.body.stockAmount)
     const rating = Number(req.body.rating)
 
-    const newItem = new Item({
+    const newItem = new Item1({
         itemName,
         description,
         category,
@@ -20,21 +21,23 @@ export function addItem(req,res){
 
     newItem.save().then(()=> {
         res.json("Item added")
-        res.status(200).send({status: "item inserted"})
+       // res.status(200).send({status: "item inserted"})
     }).catch((err)=>{
-        console.log(err.message);
-        res.status(500).send({status: "Error with inserting data", err})
+        console.log(err);
+       // res.status(500).send({status: "Error with inserting data", err})
     })
+    
 }
 
 export function getAllItems(req, res){
-    Item.find().then((items)=>{
+    Item1.find().then((items)=>{
         res.json(items)
-        res.status(200).send({status: "item updated", items})
+        //res.status(200).send({status: "item updated", items})
     }).catch((err)=>{
-        console.log(err.message);
-        res.status(500).send({status: "Error with fetching data", err})
+        console.log(err);
+        //res.status(500).send({status: "Error with fetching data", err})
     })
+    //res.json("send");
 }
 
 export function updateItem(req,res) {
@@ -47,7 +50,7 @@ export function updateItem(req,res) {
     const newRating = Number(req.body.rating)
 
     try{
-        Item.findOne(id, (error, updateItem) => {
+        Item1.findOne(id, (error, updateItem) => {
             updateItem.itemName = newItemName;
             updateItem.description = newDescription;
             updateItem.category = newCategory;
@@ -65,11 +68,11 @@ export function updateItem(req,res) {
 export function deleteItem(req, res){
     let itemId = req.params.id;
 
-    Item.findOneAndDelete(itemId).then(() => {
+    Item1.findOneAndDelete(itemId).then(() => {
         res.status(200).send({status: "Item deleted"})
     }).catch((err) => {
         console.log(err.message);
-        res.status(500).send({status: "Error with deleting data", err})
+        //res.status(500).send({status: "Error with deleting data", err})
     })
 }
 
@@ -77,7 +80,7 @@ export function deleteItem(req, res){
 export function getOneItem(req, res){
     let itemId = req.params.id;
 
-    const item = Item.findById(itemId).then((item) => {
+    const item = Item1.findById(itemId).then((item) => {
         res.status(200).send({status: "item fetched", item})
     }).catch(() => {
         console.log(err.message);
