@@ -1,13 +1,13 @@
 import express, { Request, response, Response } from 'express'
 let Item1 = require('../models/item')
-//import {Item} from  '../models/item';
 
 export function addItem(req, res) {
   const itemName = req.body.itemName
   const description = req.body.description
   const category = req.body.category
   const price = Number(req.body.price)
-  //const stockAmount = Number(req.body.stockAmount)
+  const stockAmount = Number(req.body.stockAmount)
+  const image = req.body.image
   //const rating = Number(req.body.rating)
 
   const newItem = new Item1({
@@ -15,7 +15,8 @@ export function addItem(req, res) {
     description,
     category,
     price,
-    //stockAmount,
+    stockAmount,
+    image,
     //rating
   })
 
@@ -23,11 +24,9 @@ export function addItem(req, res) {
     .save()
     .then(() => {
       res.json('Item added')
-      // res.status(200).send({status: "item inserted"})
     })
     .catch((err) => {
       console.log(err)
-      // res.status(500).send({status: "Error with inserting data", err})
     })
 }
 
@@ -41,33 +40,7 @@ export function getAllItems(req, res) {
       console.log(err)
       //res.status(500).send({status: "Error with fetching data", err})
     })
-  //res.json("send");
 }
-
-// export function updateItem(req,res) {
-//     const id = req.body.id;
-//     const newItemName = req.body.itemName
-//     const newDescription = req.body.description
-//     const newCategory = req.body.category
-//     const newPrice = Number(req.body.price)
-//     const newStockAmount = Number(req.body.stockAmount)
-//     const newRating = Number(req.body.rating)
-
-//     try{
-//         Item1.findOne(id, (error, updateItem) => {
-//             updateItem.itemName = newItemName;
-//             updateItem.description = newDescription;
-//             updateItem.category = newCategory;
-//             updateItem.price = newPrice;
-//             updateItem.stockAmount = newStockAmount;
-//             updateItem.rating = newRating;
-//             updateItem.save();
-//         });
-//     }catch(err){
-//         console.log(err.message);
-//         res.status(500).send({status: "Error with updating data", err})
-//     }
-// }
 
 export function updateItem(req, res, next) {
   Item1.findByIdAndUpdate(
@@ -78,7 +51,7 @@ export function updateItem(req, res, next) {
     (error, data) => {
       if (error) {
         //return next(error)
-        console.log("item not found")
+        console.log('item not found')
       } else {
         res.json(data)
         console.log('Item updated successfully !')
@@ -108,7 +81,7 @@ export function getOneItem(req, res) {
     .then((item) => {
       res.status(200).send({ status: 'item fetched', item })
     })
-    .catch(() => {
+    .catch((err) => {
       console.log(err.message)
       res.status(500).send({ status: 'Error with data fetching', error })
     })

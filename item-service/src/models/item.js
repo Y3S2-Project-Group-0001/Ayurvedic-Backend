@@ -13,23 +13,27 @@ const ItemSchema = new mongoose.Schema(
     },
     category: {
       type: String,
-     // required: true,
+      required: true,
       lowercase: true,
     },
     price: {
       type: Number,
       required: true,
-      default: 0
+      default: 0,
     },
     stockAmount: {
-        type: Number,
-        //required: true,
-        default: 0
+      type: Number,
+      required: true,
+      default: 0,
     },
-    rating: {
-        type: Number,
-        default: 0
-    }
+    image: {
+      type: [String],
+      required: true,
+    },
+    // rating: {
+    //     type: Number,
+    //     default: 0
+    // }
   },
   {
     versionKey: false,
