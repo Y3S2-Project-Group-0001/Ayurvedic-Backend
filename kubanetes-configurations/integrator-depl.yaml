@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: integrator-service
+  labels:
+    app: integrator-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: integrator-service
+  template:
+    metadata:
+      labels:
+        app: integrator-service
+    spec:
+      containers:
+        - name: integrator-service
+          image: docker.io/nisal1232/integrator-service:latest
+          ports:
+            - containerPort: 8000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: integrator-service
+spec:
+  selector:
+    app: integrator-service
+  type: LoadBalancer
+  ports:
+    - port: 8000
