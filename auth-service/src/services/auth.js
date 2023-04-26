@@ -18,15 +18,22 @@ export const authRegister = async ({ email, username, password }) => {
     email,
     password: encryptedPassword,
     verification_code: verificationCode,
-    photo_url: "",
-    cover_photo_url: ""
+    photo_url: '',
+    cover_photo_url: '',
   })
   await verifyMailTemplate(email, verificationCode)
   return registeredUser
 }
 
-export const verifyUser = async ({ email, verificationCode }) => {
-  const user = await getOneUser({ email, verification_code: verificationCode })
+// export const verifyUser = async ({ email, verificationCode }) => {
+//   // const user = await getOneUser({ email, verification_code: verificationCode })
+//   const user = await getOneUser({ email: email })
+//   if (!user) return false
+//   return await findOneAndUpdateUser({ email: user.email }, { is_verified: true })
+// }
+
+export const verifyUser = async ({ email }) => {
+  const user = await getOneUser({ email: email })
   if (!user) return false
   return await findOneAndUpdateUser({ email: user.email }, { is_verified: true })
 }
@@ -56,7 +63,7 @@ export const verifyMailTemplate = async (email, verification_code) => {
       cid: 'verificationCode',
     },
   ]
-  const subject = 'Welcome to Edupox'
+  const subject = 'Welcome to CeylonHerb'
   await sendMail(email, 'verificationCode', replacements, subject, attachments)
   return true
 }

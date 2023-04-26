@@ -1,12 +1,20 @@
-FROM node:16-alpine
+# Use an official Node.js runtime as a parent image
+FROM node:14-alpine
 
-WORKDIR /app
+# Set the working directory to /app
+WORKDIR /app/order-service
 
+# Copy the package.json and package-lock.json files to the container
+COPY package.json yarn.lock ./
+
+# Install dependencies
+RUN yarn install
+
+# Copy the rest of the application code to the container
 COPY . .
 
-RUN yarn install
-RUN yarn build
+# Expose port 8080 to the outside world
+EXPOSE 8004
 
-CMD ["node", "dist/index.js"]
-
-EXPOSE 3000
+# Start the application
+CMD ["yarn", "dev"]
