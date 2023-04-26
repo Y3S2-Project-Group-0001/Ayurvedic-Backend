@@ -3,3 +3,8 @@
   level: 'error',
   timestamp: '2023-04-26T07:31:59.123Z'
 }
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-26T14:17:31.012Z'
+}
