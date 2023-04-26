@@ -7,6 +7,6 @@ itemRouter.post('/addItem', addItem)
 itemRouter.post('/getAllItems', getAllItems)
 itemRouter.post('/updateItem/:id', updateItem)
 itemRouter.post('/deleteItem/:id', deleteItem)
-itemRouter.post('/getOneItem/:id', getOneItem)
+itemRouter.post('/getOneItem/:_id', getOneItem)
 
 export default itemRouter
