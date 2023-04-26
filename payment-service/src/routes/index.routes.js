@@ -1,6 +1,9 @@
 import express from 'express'
 const PaymentDetails = require('../models/payment')
 const router = express.Router()
+// const stripe = require("stripe")(process.env.STRIPE_SECRET_TEST)
+const stripe = require("stripe")("sk_test_51N1AX3FnH26RCzINKGIWEDesfNcK9tT5YXjeRrc2saEgn36kkdtwrFzCUWqa1oR4oCH5kMjYoJZTSpCZqNrQWvIk00DypxsO7A")
+
 
 // Add a payment option
 router.post("/addPayment", async (req, res) => {
@@ -46,6 +49,33 @@ router.delete("/deleteOnePayment", async (req, res) => {
 router.get("/getPaymanetOptions", async (req, res) => {
     const paymentOptions = await PaymentDetails.find({CID : req.query.CID , Type : req.query.Type}).sort({createdAt: -1})
     res.status(200).json(paymentOptions)
+})
+
+//Stripe
+router.post("/stripePay", async (req, res) => {
+   let {amount, id} = req.body
+   try {
+    const payment = await stripe.paymentIntents.create({
+        amount,
+        currency: "USD",
+        description: "CEYLONHERB",
+        payment_method: id,
+        confirm: true
+    })
+    console.log("Payment", payment)
+    res.json({
+        message:"Payment successful",
+        success: true
+    })
+
+   } catch (error) {
+    console.log("Error", error)
+    res.json({
+        message:"Payment unsuccessful",
+        success: false
+    })
+   }
+    res.status(200)
 })
 
 
