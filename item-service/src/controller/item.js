@@ -1,6 +1,7 @@
 import express, { Request, response, Response } from 'express'
 let Item1 = require('../models/item')
 
+//add items
 export function addItem(req, res) {
   const itemName = req.body.itemName
   const description = req.body.description
@@ -30,18 +31,22 @@ export function addItem(req, res) {
     })
 }
 
+/*
+    fetch all products
+*/
 export function getAllItems(req, res) {
   Item1.find()
     .then((items) => {
       res.json(items)
-      //res.status(200).send({status: "item updated", items})
     })
     .catch((err) => {
       console.log(err)
-      //res.status(500).send({status: "Error with fetching data", err})
     })
 }
 
+/*
+  update the product by id
+*/
 export function updateItem(req, res, next) {
   Item1.findByIdAndUpdate(
     req.params._id,
@@ -60,6 +65,7 @@ export function updateItem(req, res, next) {
   )
 }
 
+//delete the product
 export function deleteItem(req, res) {
   let _id = req.params._id
 
@@ -78,6 +84,19 @@ export function getOneItem(req, res) {
   let _id = req.params._id
 
   Item1.findById(_id)
+    .then((item) => {
+      res.json(item)
+    })
+    .catch((err) => {
+      console.log(err.message)
+    })
+}
+
+//filter data by category
+export function getItemsByCategory(req, res) {
+  let category = req.params.category
+
+  Item1.find(category)
     .then((item) => {
       res.json(item)
     })
