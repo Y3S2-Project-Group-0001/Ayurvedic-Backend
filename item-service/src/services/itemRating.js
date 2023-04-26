@@ -5,16 +5,16 @@ import {
   getMyReviewsRepository,
   getAllReviewsRepository,
   getReviewRepository,
-} from '../repository/rating'
+} from '../repository/itemRating'
 
-//Add a review
+//Add Review
 export const addReview = async (reviewContent) => {
   const review = await addOneReview(reviewContent)
   if (!review) return false
   console.log('service', review)
   return review
 }
-//Delete a review
+//Delete Review
 export const deleteReview = async (reviewId) => {
   console.log('service', reviewId)
   const review = await deleteOneReview(reviewId)
@@ -22,7 +22,7 @@ export const deleteReview = async (reviewId) => {
   console.log('service', review)
   return review
 }
-//Update a review
+//Update Review
 export const updateReviewService = async (reviewContent) => {
   console.log('reviewContent is this: ', reviewContent)
   const review = await updateReviewRepository({ _id: reviewContent._id }, reviewContent)
@@ -30,7 +30,7 @@ export const updateReviewService = async (reviewContent) => {
   console.log('service', review)
   return review
 }
-//Get my reviews for a user
+//Get my Reviews
 export const getMyReviewsService = async ({ email }) => {
   console.log('userid', email)
   const reviews = await getMyReviewsRepository({ email })
@@ -38,14 +38,14 @@ export const getMyReviewsService = async ({ email }) => {
   console.log('service', reviews)
   return reviews
 }
-//Get all reviews
+//Get all Reviews
 export const getAllReviewsService = async () => {
   const reviews = await getAllReviewsRepository()
   if (!reviews) return false
   console.log('service', reviews)
   return reviews
 }
-//Get a review
+//Get Review
 export const getReviewService = async (reviewId) => {
   const review = await getReviewRepository(reviewId)
   if (!review) return false
