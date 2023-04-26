@@ -48,3 +48,22 @@ export function getCustomerCart(req, res) {
       console.log(err)
     })
 }
+
+/**
+ * @param {express.Request} req
+ * @param {express.Response} res
+ */
+
+export function updateCart(req, res) {
+  const products = req.body.products
+  const subTotal = Number(req.body.subTotal)
+  const shippingCost = req.body.shippingCost
+  // update cart
+  Cart.findOneAndUpdate({ _id: req.body.cartId }, { products, subTotal, shippingCost })
+    .then(() => {
+      res.json('cart updated')
+    })
+    .catch((err) => {
+      console.log(err)
+    })
+}

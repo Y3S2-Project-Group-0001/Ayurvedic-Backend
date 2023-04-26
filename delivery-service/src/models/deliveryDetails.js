@@ -4,14 +4,10 @@ const Schema = mongoose.Schema
 const deliveryDetailsSchema = new Schema({
     CID:{
         type: String,
-        required: false
+        required: false,
     },
     Addresses: [{
         Title:{
-            type: String,
-            required: false
-        },
-        HouseNo:{
             type: String,
             required: false
         },
@@ -19,11 +15,7 @@ const deliveryDetailsSchema = new Schema({
             type: String,
             required: false
         },
-        city:{
-            type: String,
-            required: false
-        },
-        street:{
+        country:{
             type: String,
             required: false
         },

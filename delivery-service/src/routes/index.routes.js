@@ -1,10 +1,12 @@
 import express from 'express'
+import mongoose from 'mongoose';
 const DeliveryDetails = require('../models/deliveryDetails')
 const router = express.Router()
 
 // Add new Address or add new to already existing array
 router.post("/addAddress", async (req, res) => {
 let data = req.body;
+console.log(data, "hello");
 try{
     const modelDelivery = await DeliveryDetails.findOne({ CID: data.CID })
 
@@ -31,7 +33,7 @@ catch (e) {
 
 // Get all addresses 
 router.get("/getAddresses", async (req, res) => {
-    const addresses = await DeliveryDetails.find({CID : req.body.CID}).sort({createdAt: -1})
+    const addresses = await DeliveryDetails.find({CID : req.query.CID}).sort({createdAt: -1})
     res.status(200).json(addresses)
 })
 
@@ -59,15 +61,16 @@ router.put("/updateAddress", async (req, res) => {
 
 // Delete one Address
 router.delete("/deleteOneAddress", async (req, res) => {
+    console.log(req.query.CID + ">>>>" + req.query.AID)
     const address = await DeliveryDetails.updateOne(
-        { _id: req.body.CID },
-        { $pull: { Addresses: { _id: req.body.addressID } } }
+        { CID: req.query.CID },
+        { $pull: { Addresses: { _id: req.query.AID } } }
     );
-    if(!address){
-        return res.status(404).json({error:'no post'})
+    if (!address) {
+        return res.status(404).json({ error: 'no post' });
     }
-        return res.status(200).json(address)
-})
+    return res.status(200).json(address);
+});
 
 
 // Delete all addressses of a customer

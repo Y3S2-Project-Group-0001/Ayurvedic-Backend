@@ -58,6 +58,39 @@ export function getCustomerOrders(req, res) {
  * @param {express.Response} res
  */
 
+export function getAdminOrders(req, res) {
+  // find orders by customerId and sort by orderDate
+  Order.find()
+    .sort({ orderDate: -1 })
+    .then((cart) => {
+      res.json(cart)
+    })
+    .catch((err) => {
+      console.log(err)
+    })
+}
+
+/**
+ * @param {express.Request} req
+ * @param {express.Response} res
+ */
+
+export function getOrder(req, res) {
+  // find orders by customerId and sort by orderDate
+  Order.findById(req.body.orderId)
+    .then((order) => {
+      res.json(order)
+    })
+    .catch((err) => {
+      console.log(err)
+    })
+}
+
+/**
+ * @param {express.Request} req
+ * @param {express.Response} res
+ */
+
 export function approveOrder(req, res) {
   // change order status to approved
   Order.findOneAndUpdate({ _id: req.body.orderId }, { status: 'approved' })
