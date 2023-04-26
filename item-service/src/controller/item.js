@@ -44,7 +44,7 @@ export function getAllItems(req, res) {
 
 export function updateItem(req, res, next) {
   Item1.findByIdAndUpdate(
-    req.params.id,
+    req.params._id,
     {
       $set: req.body,
     },
@@ -61,11 +61,11 @@ export function updateItem(req, res, next) {
 }
 
 export function deleteItem(req, res) {
-  let itemId = req.params.id
+  let _id = req.params._id
 
-  Item1.findOneAndDelete(itemId)
+  Item1.findOneAndDelete(_id)
     .then(() => {
-      res.status(200).send({ status: 'Item deleted' })
+      res.json('deleted')
     })
     .catch((err) => {
       console.log(err.message)
