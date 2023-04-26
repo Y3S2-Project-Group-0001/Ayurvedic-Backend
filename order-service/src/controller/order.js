@@ -13,6 +13,7 @@ export function addNewOrder(req, res) {
   const shippingCost = req.body.shippingCost
   const orderDate = req.body.orderDate
   const status = req.body.status
+  const address = req.body.address
   const customerId = req.body.customerId
 
   const newOrder = new Order({
@@ -21,6 +22,7 @@ export function addNewOrder(req, res) {
     shippingCost,
     orderDate,
     status,
+    address,
     customerId,
   })
 
