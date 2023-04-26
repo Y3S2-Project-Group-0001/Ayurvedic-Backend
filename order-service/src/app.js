@@ -48,5 +48,5 @@ global.__basedir = __dirname
 const port = process.env.PORT || 3000
 
 app.listen(port, () => {
-  console.log(`SPM server successfully started at port ${port}`)
+  console.log(`Server successfully started at port ${port}`)
 })
