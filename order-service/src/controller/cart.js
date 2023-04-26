@@ -8,17 +8,15 @@ let Cart = require('../models/cart')
 
 export function addNewCart(req, res) {
   console.log(req.body)
-  const products = req.body.products
-  const subTotal = Number(req.body.subTotal)
-  const shippingCost = req.body.shippingCost
-  const status = req.body.status
+  const products = req.body.products || []
+  const subTotal = Number(req.body.subTotal) || 0
+  const shippingCost = req.body.shippingCost || 0
   const customerId = req.body.customerId
 
   const newCart = new Cart({
     products,
     subTotal,
     shippingCost,
-    status,
     customerId,
   })
 
@@ -45,7 +43,7 @@ export function getCustomerCart(req, res) {
       res.json(cart)
     })
     .catch((err) => {
-      console.log(err)
+      // addNewCart(req,res) TODO need to do this when there is no customer cart
     })
 }
 
@@ -58,6 +56,7 @@ export function updateCart(req, res) {
   const products = req.body.products
   const subTotal = Number(req.body.subTotal)
   const shippingCost = req.body.shippingCost
+  console.log(products)
   // update cart
   Cart.findOneAndUpdate({ _id: req.body.cartId }, { products, subTotal, shippingCost })
     .then(() => {
