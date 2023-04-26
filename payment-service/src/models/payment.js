@@ -6,7 +6,7 @@ const paymentSchema = new Schema({
         type: String,
         required: false
     },
-    Payments: [{
+    PaymentDetails: [{
         Type:{
             type: String,
             required: false
@@ -14,7 +14,23 @@ const paymentSchema = new Schema({
         CardNumber:{
             type: String,
             required: false
-        }
+        },
+        CardHolderName:{
+            type: String,
+            required: false
+        },
+        Expire:{
+            type: String,
+            required: false
+        },
+        CVC:{
+            type: String,
+            required: false
+        },
+        Email: {
+            type: String,
+            required: false
+        },
     }],
 }, {timestamps : true})
 

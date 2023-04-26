@@ -8,14 +8,14 @@ router.post("/addPayment", async (req, res) => {
     try{
         const modelPayment = await PaymentDetails.findOne({ CID: data.CID })
     
-        // Adding completely new address
+        // Adding completely new payment
         if (!modelPayment){
             const newModel = new PaymentDetails(data);
             await newModel.save();
         }
-        // Adding another address to the same customer
+        // Adding another payment
         if (modelPayment) {
-            modelPayment.Payments.push(data.Paymanets)
+            modelPayment.PaymentDetails.push(data.PaymentDetails)
             await modelPayment.save();
         } else {
         console.log('Document not found');
@@ -28,9 +28,23 @@ router.post("/addPayment", async (req, res) => {
     }
 })
 
+// Delete one payment option
+router.delete("/deleteOnePayment", async (req, res) => {
+    const payment = await PaymentDetails.updateOne(
+        { CID: req.query.CID },
+        { $pull: { PaymentDetails: { _id: req.query.paymentID } } }
+    );
+    if(!payment){
+        return res.status(404).json({error:'no post'})
+    }
+        return res.status(200).json(payment)
+})
+
+
+
 // get all payment options
 router.get("/getPaymanetOptions", async (req, res) => {
-    const paymentOptions = await PaymentDetails.find({CID : req.body.CID}).sort({createdAt: -1})
+    const paymentOptions = await PaymentDetails.find({CID : req.query.CID , Type : req.query.Type}).sort({createdAt: -1})
     res.status(200).json(paymentOptions)
 })
 
@@ -56,17 +70,7 @@ router.put("/updatePayment", async (req, res) => {
   });
 
 
-// Delete one payment option
-router.delete("/deleteOnePayment", async (req, res) => {
-    const payment = await PaymentDetails.updateOne(
-        { _id: req.body.CID },
-        { $pull: { Payments: { _id: req.body.paymentID } } }
-    );
-    if(!payment){
-        return res.status(404).json({error:'no post'})
-    }
-        return res.status(200).json(payment)
-})
+
 
 // Delete all addressses of a customer
 router.delete("/deletePayments", async (req, res) => {
