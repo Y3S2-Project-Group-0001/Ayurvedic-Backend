@@ -58,3 +58,8 @@
   level: 'info',
   timestamp: '2023-04-26T05:36:04.225Z'
 }
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-26T07:37:17.522Z'
+}
