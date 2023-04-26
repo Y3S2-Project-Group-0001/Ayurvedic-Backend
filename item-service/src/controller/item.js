@@ -75,14 +75,13 @@ export function deleteItem(req, res) {
 
 //filter data by id
 export function getOneItem(req, res) {
-  let itemId = req.params.id
+  let _id = req.params._id
 
-  const item = Item1.findById(itemId)
+  Item1.findById(_id)
     .then((item) => {
-      res.status(200).send({ status: 'item fetched', item })
+      res.json(item)
     })
     .catch((err) => {
       console.log(err.message)
-      res.status(500).send({ status: 'Error with data fetching', error })
     })
 }
