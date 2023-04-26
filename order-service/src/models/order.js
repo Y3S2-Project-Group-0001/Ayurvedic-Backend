@@ -3,7 +3,7 @@ import mongoose from 'mongoose'
 const Schema = mongoose.Schema
 
 const productSchema = new mongoose.Schema({
-  productId: { type: Number, required: true },
+  productId: { type: String, required: true },
   quantity: { type: Number, required: true, default: 1 },
 })
 
@@ -13,8 +13,9 @@ const orderSchema = new Schema({
   shippingCost: { type: Number, required: true, default: 0 },
   orderDate: { type: Date, required: true, default: Date.now },
   status: { type: String, required: true, default: 'pending' },
+  address: { type: String, required: true },
   customerId: {
-    type: Number,
+    type: String,
     required: true,
   },
 })

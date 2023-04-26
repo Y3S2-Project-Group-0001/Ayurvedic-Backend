@@ -13,7 +13,7 @@ const cartSchema = new Schema({
   shippingCost: { type: Number, required: true, default: 0 },
   status: { type: String, required: true, default: 'cart' },
   customerId: {
-    type: Number,
+    type: String,
     required: true,
   },
 })
