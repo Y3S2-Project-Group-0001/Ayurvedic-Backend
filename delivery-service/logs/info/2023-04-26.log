@@ -63,3 +63,23 @@
   level: 'info',
   timestamp: '2023-04-26T07:37:17.522Z'
 }
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-27T09:14:56.961Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-27T09:25:01.285Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-27T09:37:22.966Z'
+}
+{
+  message: 'Connected to database successfully',
+  level: 'info',
+  timestamp: '2023-04-27T09:47:27.351Z'
+}
