@@ -66,3 +66,17 @@ export function updateCart(req, res) {
       console.log(err)
     })
 }
+
+export function cleanCart(customerId) {
+  const products = []
+  const subTotal = 0
+  const shippingCost = 0
+  Cart.findOneAndUpdate({ customerId }, { products, subTotal, shippingCost })
+    .then(() => {
+      return true
+    })
+    .catch((err) => {
+      console.log('failed cleaning cart ', err)
+      return false
+    })
+}

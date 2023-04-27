@@ -1,4 +1,5 @@
 import express, { Request, response, Response } from 'express'
+import { cleanCart } from './cart'
 let Order = require('../models/order')
 
 /**
@@ -26,11 +27,10 @@ export function addNewOrder(req, res) {
     customerId,
   })
 
-  console.log(newOrder)
-
   newOrder
     .save()
     .then(() => {
+      cleanCart(customerId)
       res.json('order added')
     })
     .catch((err) => {
