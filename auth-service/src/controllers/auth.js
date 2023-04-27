@@ -3,6 +3,7 @@ import { makeResponse } from '../utils/response'
 import { sendTokenResponse } from '../utils/jwt'
 import { authRegister, verifyUser, authLogin } from '../services/auth'
 
+//Register a new user
 export const register = asyncHandler(async (req, res) => {
   const result = await authRegister(req.body)
   if (!result) return makeResponse({ res, status: 500, message: 'Registration Failed' })
@@ -13,6 +14,7 @@ export const register = asyncHandler(async (req, res) => {
   })
 })
 
+//Verify a user
 export const verify = asyncHandler(async (req, res) => {
   const result = await verifyUser(req.body)
   if (!result)
@@ -20,10 +22,13 @@ export const verify = asyncHandler(async (req, res) => {
   return makeResponse({ res, message: 'Verification Successful' })
 })
 
+//User login
 export const login = asyncHandler(async (req, res) => {
   const user = await authLogin(req.body)
+  //check if user exists
   if (!user)
     return makeResponse({ res, status: 401, message: 'Invalid email or password. Try again!' })
+  //check if user is verified
   if (!user.is_verified)
     return makeResponse({
       res,

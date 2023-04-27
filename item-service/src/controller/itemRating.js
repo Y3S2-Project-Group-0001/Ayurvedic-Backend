@@ -7,13 +7,11 @@ import {
   getMyReviewsService,
   getAllReviewsService,
   getReviewService,
-} from '../services/rating'
+} from '../services/itemRating'
 
-// Function to handle adding a review
+//add review
 export const postReview = asyncHandler(async (req, res) => {
-  // Call the addReview service with request body
   const result = await addReview(req.body)
-  // If result is false, return an error response
   if (!result)
     return makeResponse({
       res,
@@ -24,13 +22,10 @@ export const postReview = asyncHandler(async (req, res) => {
   console.log('controller', result)
   return makeResponse({ res, message: 'Review Added Successfully!' })
 })
-
-// Function to handle removing a review
+//remove review
 export const removeReview = asyncHandler(async (req, res) => {
   console.log('req.body in remove review', req.params)
-  // Call the deleteReview service with request params
   const result = await deleteReview(req.params)
-  // If result is false, return an error response
   if (!result)
     return makeResponse({
       res,
@@ -41,12 +36,9 @@ export const removeReview = asyncHandler(async (req, res) => {
   console.log('controller', result)
   return makeResponse({ res, message: 'Review Deleted Successfully!' })
 })
-
-// Function to handle updating a review
+//update review
 export const updateReview = asyncHandler(async (req, res) => {
-  // Call the updateReview  service with request params
   const result = await updateReviewService(req.body)
-  // If result is false, return an error response
   if (!result)
     return makeResponse({
       res,
@@ -57,12 +49,9 @@ export const updateReview = asyncHandler(async (req, res) => {
   console.log('controller', result)
   return makeResponse({ res, message: 'Review Edited Successfully!' })
 })
-
-// Function to handle getting all reviews for a user
+//get my reviews
 export const getMyReviews = asyncHandler(async (req, res) => {
-  // Call the getMyReviews  service
   const result = await getMyReviewsService(req.params)
-  // If result is false, return an error response
   if (!result)
     return makeResponse({
       res,
@@ -73,12 +62,9 @@ export const getMyReviews = asyncHandler(async (req, res) => {
   console.log('controller', result)
   return makeResponse({ res, message: 'Reviews Retrieved Successfully!' })
 })
-
-// Function to handle getting all reviews
+//get all reviews
 export const getAllReviews = asyncHandler(async (req, res) => {
-  // Call the getAllReviews  service
   const result = await getAllReviewsService()
-  // If result is false, return an error response
   if (!result)
     return makeResponse({
       res,
@@ -89,12 +75,9 @@ export const getAllReviews = asyncHandler(async (req, res) => {
   console.log('controller', result)
   return makeResponse({ res, data: result, message: 'Reviews Retrieved Successfully!' })
 })
-
-// Function to handle getting a review
+//get review
 export const getReview = asyncHandler(async (req, res) => {
-  // Call the getReview  service
   const result = await getReviewService(req.params)
-  // If result is false, return an error response
   if (!result)
     return makeResponse({
       res,

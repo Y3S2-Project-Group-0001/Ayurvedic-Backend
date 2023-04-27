@@ -2,8 +2,8 @@ import asyncHandler from '../middleware/async'
 import { makeResponse } from '../utils/response'
 import { addInterests, updateUser, getUser, deleteOne } from '../services/user'
 
+//add interests
 export const pickInterests = asyncHandler(async (req, res) => {
-  //req.user wont work
   const result = await addInterests(req.user.email, req.body.interests)
   if (!result)
     return makeResponse({
@@ -15,6 +15,7 @@ export const pickInterests = asyncHandler(async (req, res) => {
   return makeResponse({ res, message: 'Interests Added Successfully!' })
 })
 
+//edit user
 export const editUser = asyncHandler(async (req, res) => {
   const result = await updateUser(req.body.email, req.body)
   if (!result)
@@ -27,6 +28,7 @@ export const editUser = asyncHandler(async (req, res) => {
   return makeResponse({ res, message: 'Profile Updated Successfully!' })
 })
 
+//get user
 export const getOneUser = asyncHandler(async (req, res) => {
   const result = await getUser(req.body.email)
   if (!result)
@@ -38,9 +40,15 @@ export const getOneUser = asyncHandler(async (req, res) => {
   if (result.status) return makeResponse({ res, ...result })
   return makeResponse({ res, message: 'Profile Gotten Successfully!', data: result })
 })
+
+//delete user
 export const deleteUser = asyncHandler(async (req, res) => {
   const result = await deleteOne(req.body.email)
-  if(!result) return makeResponse({res, status: 400, message: 'Cannot delete your profile, please try again.'})
-  return makeResponse({res, message: 'Profile Deleted Successfully!'})
-
+  if (!result)
+    return makeResponse({
+      res,
+      status: 400,
+      message: 'Cannot delete your profile, please try again.',
+    })
+  return makeResponse({ res, message: 'Profile Deleted Successfully!' })
 })
