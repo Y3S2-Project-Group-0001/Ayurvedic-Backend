@@ -2,14 +2,15 @@ const express = require("express");
 const cors = require("cors");
 const proxy = require("express-http-proxy");
 
-
 const app = express();
 
 app.use(cors());
-app.use(cors({
-  origin: 'http://localhost:3000',
-  credentials: true
-}));
+app.use(
+  cors({
+    origin: "http://localhost:3000",
+    credentials: true,
+  })
+);
 
 app.use(express.json());
 
@@ -18,6 +19,7 @@ app.use("/auth", proxy("http://localhost:8001/"));
 app.use("/delivery", proxy("http://localhost:8002/"));
 app.use("/item", proxy("http://localhost:8003/"));
 app.use("/payment", proxy("http://localhost:8008/"));
+app.use("/rating", proxy("http://localhost:8009/"));
 
 //  🔻dont delete this commented code this will be used in kubernetes we need this
 // app.use("/order", proxy("http://order-service:8004/"));
